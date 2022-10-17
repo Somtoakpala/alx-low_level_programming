@@ -8,12 +8,13 @@
  */
 int main(void)
 {
-  char alpha;
-
-  alpha = 'a';
-  while(alpha <= 'z')
-  {
-  putchar(alpha);
-  alpha++;}
-  return (0);
+   char alpha;
+   
+   alpha = 'a';
+   while(alpha <= 'z')
+   {
+   putchar(alpha);
+   alpha++; }
+   putchar('\n')
+   return (0);
 }
