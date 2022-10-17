@@ -16,8 +16,10 @@ while (alpha <= 'z')
 if (alpha == 'q' || alpha == 'e')
 {
 continue; }
+else
+{
 putchar(alpha);
-alpha++; }
+alpha++; } }
 putchar('\n');
 return (0);
 }
