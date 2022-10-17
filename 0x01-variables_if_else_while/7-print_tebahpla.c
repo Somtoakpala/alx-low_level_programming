@@ -13,8 +13,7 @@ char alpha;
 alpha = 'z';
  for (alpha ='z'; alpha >= 'a'; alpha--)
 {
-putchar(alpha);
-alpha++; }
+putchar(alpha); }
 putchar('\n');
 return (0);
 }
