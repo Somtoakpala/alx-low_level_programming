@@ -11,10 +11,9 @@ int main(void)
 char alpha;
 
 alpha = '0';
-for (alpha = '0'; alpha < '10'; alpha++)
+for (alpha = '0'; alpha <= '9'; alpha++)
 {
-putchar(alpha);
-} }
+putchar(alpha); }
 putchar('\n');
 return (0);
 }
