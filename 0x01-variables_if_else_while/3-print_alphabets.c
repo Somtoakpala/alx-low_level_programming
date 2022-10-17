@@ -12,6 +12,7 @@ char alpha;
 char ALPHA;
 
 alpha = 'a';
+ALPHA = 'A';
 while (alpha <= 'z')
 {
 putchar(alpha);
