@@ -13,7 +13,7 @@ int alpha;
 alpha = 0;
 for (alpha = 0; alpha <= 9; alpha++)
 {
-putchar(alpha); }
+putchar(alpha + '0'); }
 putchar('\n');
 return (0);
 }
