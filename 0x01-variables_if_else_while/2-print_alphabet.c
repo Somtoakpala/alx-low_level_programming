@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-  char alpha;
+  int putchar(int alpha);
 
   alpha = 'a';
-  while(alpha >= z)
+  while(alpha <= 'z')
   {
   putchar("%c", alpha);
   alpha++;}
