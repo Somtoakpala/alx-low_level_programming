@@ -11,7 +11,7 @@ int main(void)
 char alpha;
 
 alpha = 'a';
-while (alpha <= 'z')
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 if (alpha == 'q' || alpha == 'e')
 {
@@ -19,7 +19,7 @@ continue; }
 else
 {
 putchar(alpha);
-alpha++; } }
+} }
 putchar('\n');
 return (0);
 }
